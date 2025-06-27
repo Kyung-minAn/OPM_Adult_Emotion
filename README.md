@@ -2,12 +2,17 @@
 This repository contains Python scripts designed as part of the analysis 
 pipeline for data collected as part of the BBSRC Pioneer Project.
 
-This was specifically OPM-MEG data recorded using a FieldLine system,
+OPM-MEG data were recorded using a FieldLine system,
 collected in a group of healthy adult participants.
 
-## Scripts
+These scripts are specifically designed for processing and analysing FieldLine data.
 
+## Scripts
+BIDs_formatting
 - opm_bids_converter.py - Convert OPM-MEG data to BIDS format
+
+Preprocessing
+- preprocessing_ann_ica.py - Preprocessing OPM-MEG Task Data: Filter, Annotate and ICA
 
 ## Requirements
 
