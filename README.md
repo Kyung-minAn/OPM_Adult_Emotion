@@ -19,12 +19,16 @@ Experiment_Tasks
 
 - Infant_OPM_experiment contains all the task scripts used for infant data collection: Passive voice listening task based from the adult task (PassiveVoiceTaskInfantAW_final.m) , and white noise (whitenoise_datapixx_script_final.m).
 
+Analysis
+- TFR scripts - statistical testing and plotting TFRs in topomap arrangemet.
+- MVPA scripts - Sliding estimator MVPA pipeline with plots on subject and group level, and preliminary statistical testing.
+
 ## Requirements
 
 - Python 3.8+
 - MNE-Python
 - MNE-BIDS
-- NumPy, SciPy, Matplotlib
+- NumPy, SciPy, Matplotlib, scikit-learn
 - MATLAB 2019b for running experiment task scripts
 
 See requirements.txt for specific versions.
